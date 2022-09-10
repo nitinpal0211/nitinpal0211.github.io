@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-list{
+    display: inline;
+    padding: 15px;
+}
+#navbar{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+}
+#nav-1{
+    width: 50%;
+  
+}
+#nav-2{
+    width: 50%;
+}
+#about-me{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 35px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    border-radius: 3px;
+   background-color: floralwhite;
+    padding: 10px 0px;
+}
+.about-1{
+    width: 50%;
+}
+.about-2{
+    width: 50%;
+}
+.about-2>p{
+    margin-top: 10px;
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    body {
+        background-color: yellow;
+    }
+}
