@@ -1423,6 +1423,9 @@ a:hover {
   position: relative;
   padding: 6px 0 6px 24px;
 }
+.typed{
+  color: red;
+}
 
 .widget-sidebar .list-sidebar li:before {
   position: absolute;
@@ -1450,7 +1453,6 @@ a:hover {
 
 .widget-tags ul li {
   display: inline-block;
-  background-color: #0078ff;
   padding: 0.2rem 0.6rem;
   margin-bottom: 0.5rem;
   border-radius: 15px;
@@ -1480,4 +1482,39 @@ footer .credits {
 
 footer .credits a {
   color: #fff;
+}
+/* .about-me pt-4 pt-md-0{
+  background-color: black;
+} */
+#services{
+  background-color: black;
+}
+.title-a{
+  color: white;
+}
+.subtitle-a{
+  color: red;
+}
+.line-mf{
+  width: 192px;
+}
+.hello{
+  font-size: 35px;
+  margin-left: -453px;
+  font-weight: bold;
+}
+.service-box{
+  background-color: whitesmoke;
+}
+#resume-btn{
+ background-color: rgb(249, 64, 64);
+ padding: 5px 15px;
+ border-radius: 5px;
+ color: white;
+ font-size: 25px;
+ font-weight: bold;
+}
+#resume-btn:hover{
+  background-color: red;
+  border: #ed3c0d;
 }
