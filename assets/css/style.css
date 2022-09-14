@@ -1436,6 +1436,7 @@ a:hover {
   background-color: #0078ff;
   top: 20px;
 }
+w
 
 .sidebar-search input {
   background-color: #fff;
@@ -1500,7 +1501,7 @@ footer .credits a {
 }
 .hello{
   font-size: 35px;
-  margin-left: -453px;
+  margin-left: -32%;
   font-weight: bold;
 }
 .service-box{
@@ -1517,4 +1518,10 @@ footer .credits a {
 #resume-btn:hover{
   background-color: red;
   border: #ed3c0d;
+}
+.rs-btn{
+  color: white;
+}
+.rs-btn:hover{
+  color: white;
 }
