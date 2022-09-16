@@ -1436,8 +1436,31 @@ a:hover {
   background-color: #0078ff;
   top: 20px;
 }
-w
-
+.title-s{
+  font-weight: bold;
+  
+  color: #ed3c0d;
+}
+.skills-111{
+  display: grid;
+ font: 65px;
+  grid-template-columns: repeat(4,1fr);
+ gap: 30px;
+ background-color: transparent;
+}
+.skills-111 div>img{
+  width: 70%;
+  
+}
+.skills{
+text-align: center;
+border: 1px red;
+color: red;
+font-weight: bolder;
+font-size: 150%;
+text-decoration: underline;
+margin-bottom: 10px;
+}
 .sidebar-search input {
   background-color: #fff;
   border-radius: 0;
