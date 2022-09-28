@@ -1634,4 +1634,6 @@ footer .credits a {
   color: #E0E0E0;
   transform: translateY(-10px);
 }
-
+.git img{
+width: 30%;
+}
