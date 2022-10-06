@@ -1468,7 +1468,9 @@ a:hover {
     grid-template-columns: repeat(1,1fr);
    gap: 100px;
    background-color: transparent;
+   
   }
+ 
  
 }
 @media  (max-width: 786px) {
@@ -1489,6 +1491,8 @@ a:hover {
    background-color: transparent;
   }
 }
+
+
 .skills-111 div>img{
   width: 70%;
   
@@ -1636,4 +1640,20 @@ footer .credits a {
 }
 .git img{
 width: 30%;
+}
+@media (min-width: 250px) and (max-width: 572px){
+  .git img{
+    width: 10%;
+    }
+}
+
+@media (min-width : 260px) and (max-width: 786px){
+  .skill-111{
+    text-align: center;
+    justify-content: center;
+  }
+  .skills-111 div>img{
+    width: 40%;
+    
+  }
 }
