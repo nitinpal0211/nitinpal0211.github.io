@@ -1641,7 +1641,7 @@ footer .credits a {
 .git img{
 width: 30%;
 }
-@media (min-width: 250px) and (max-width: 572px){
+@media (min-width: 250px) and (max-width: 575.5px){
   .git img{
     width: 10%;
     }
