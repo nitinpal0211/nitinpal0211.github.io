@@ -1648,10 +1648,7 @@ width: 30%;
 }
 
 @media (min-width : 260px) and (max-width: 786px){
-  .skill-111{
-    text-align: center;
-    justify-content: center;
-  }
+ 
   .skills-111 div>img{
     width: 40%;
     
