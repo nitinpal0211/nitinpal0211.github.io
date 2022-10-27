@@ -162,7 +162,9 @@ a:hover {
 
 .subtitle-a {
   text-decoration: none;
-  color: #4e4e4e;
+
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .line-mf {
@@ -954,21 +956,51 @@ a:hover {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
+  
 }
 
 .work-box:hover img {
   transform: scale(1.3);
 }
+.col-md-4{
+  
+
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 
 .work-img {
   display: block;
   overflow: hidden;
+  
 }
-
+.project-grid{
+  display: flex;
+  gap: 10px;
+ margin-bottom: 20px;
+}
+@media(max-width:767px){
+  .project-grid{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  
+   
+  }
+}
 .work-img img {
-  transition: all 1s;
+  width: 100%;
 }
-
+.work-img img :hover{
+  cursor: pointer;
+  
+}
+.p-detail{
+  text-align: justify;
+  color: black;
+  line-height: normal;
+  margin-left: 2%;
+  margin-right: 2%;
+}
 .work-content {
   padding: 2rem 3% 1rem 4%;
 }
@@ -998,6 +1030,9 @@ a:hover {
 
 .w-title {
   font-size: 1.2rem;
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
 }
 
 /*--------------------------------------------------------------
@@ -1459,14 +1494,18 @@ a:hover {
     grid-template-columns: repeat(2,1fr);
    gap: 100px;
    background-color: transparent;
+   text-align: center;
   }
 }@media  (max-width: 786px) {
   .skills-111{
     display: grid;
    font: 50px;
    align-items: center;
-    grid-template-columns: repeat(1,1fr);
-   gap: 100px;
+   justify-content: center;
+    text-align: center;
+  
+    grid-template-columns: repeat(2,1fr);
+   gap: 10px;
    background-color: transparent;
    
   }
@@ -1475,7 +1514,7 @@ a:hover {
 }
 @media  (max-width: 786px) {
   .skills-111 div>img{
-    width: 40%;
+    width: 100%;
     
   }
   
@@ -1653,4 +1692,29 @@ width: 30%;
     width: 40%;
     
   }
+}
+.tech-stack{
+  color: red;
+  font-weight: bold;
+}
+.tech-use{
+  font-weight: bold;
+}
+.tech-img{
+  display: flex;
+  margin-bottom: 10px;
+
+text-align: center;
+gap: 0%;
+}
+.tech-img1 img{
+  width: 20%;
+  
+  
+}
+.img1{
+  margin-left: 60%;
+}
+.img2{
+  margin-right: 50%;
 }
