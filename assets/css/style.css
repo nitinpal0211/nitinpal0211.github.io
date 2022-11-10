@@ -99,7 +99,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color: black;
 }
 
 .overlay-mf {
@@ -839,6 +839,7 @@ a:hover {
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
+  background: bisque
 }
 
 .about-mf .about-img {
@@ -1717,4 +1718,7 @@ gap: 0%;
 }
 .img2{
   margin-right: 50%;
+}
+.github{
+ margin-top: 20px;
 }
