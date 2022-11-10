@@ -1609,14 +1609,14 @@ footer .credits a {
 }
 .hello{
   font-size: 35px;
-  margin-left: -32%;
+  
   font-weight: bold;
 }
 .service-box{
   background-color: whitesmoke;
 }
 #resume-btn{
- background-color: rgb(249, 64, 64);
+ background-color: red;
  padding: 5px 15px;
  border-radius: 5px;
  color: white;
@@ -1624,7 +1624,7 @@ footer .credits a {
  font-weight: bold;
 }
 #resume-btn:hover{
-  background-color: red;
+  background-color: orange;
   border: #ed3c0d;
 }
 .rs-btn{
