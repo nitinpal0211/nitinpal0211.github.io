@@ -463,8 +463,9 @@ a:hover {
 --------------------------------------------------------------*/
 #header {
   transition: all 0.5s;
-  z-index: 997;
+ 
   padding: 20px 0;
+  
 }
 
 #header .logo {
@@ -483,8 +484,8 @@ a:hover {
   max-height: 40px;
 }
 
-#header.header-scrolled {
-  background: rgba(0, 0, 0, 0.9);
+#header {
+  background:  black;
   padding: 12px 0;
 }
 
@@ -836,6 +837,62 @@ a:hover {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.aboutme{
+
+  display: grid;
+  grid-template-columns: 40% 60%;
+ 
+  width: 85%;
+  margin: auto;
+  margin-top: 2%;
+  
+  padding: 1rem;
+}
+
+
+.aboutme-box-1 img{
+  width: 50%;
+  border-radius: 100%;
+}
+.aboutme-name{
+  font-size: 50px;
+  font-weight: bold;
+}
+.about-details{
+
+  margin-top: 3%;
+}
+
+@media (max-width:1170px) {
+  .aboutme-box-1 img{
+    width: 60%;
+    border-radius: 100%;
+  }
+  
+}
+@media (min-width:968px) {
+  .aboutme-box-1 img{
+    width: 60%;
+    border-radius: 100%;
+  }
+  
+}
+@media (max-width:968px) {
+  .aboutme{
+   display: grid;
+   text-align: center;
+   grid-template-columns: repeat(1,1fr);
+  }
+
+  .aboutme-box-1 img{
+    width: 40%;
+    border: 2px solid red;
+  }
+  
+}
+
+
+
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -1620,7 +1677,7 @@ footer .credits a {
  padding: 5px 15px;
  border-radius: 5px;
  color: white;
- font-size: 25px;
+ font-size:15px;
  font-weight: bold;
 }
 #resume-btn:hover{
@@ -1721,4 +1778,61 @@ gap: 0%;
 }
 .github{
  margin-top: 20px;
+}
+.contact-n{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 85%;
+  margin: auto;
+  margin-top: 2%;
+ 
+  padding: 1rem;
+}
+@media(max-width:768px){
+  .contact-n{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 85%;
+    margin: auto;
+    margin-top: 2%;
+   
+    padding: 1rem;
+  }
+}
+.contact-n-box{
+padding: 2%;
+
+}
+
+.c-form{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.c-form-1{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 100px;
+}
+.f-submit{
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.f-submit:hover{
+  background-color: #45a049;
 }
