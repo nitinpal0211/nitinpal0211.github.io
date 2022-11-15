@@ -1570,6 +1570,23 @@ a:hover {
  
  
 }
+.github-s{
+  display: flex; 
+  align-items: center;text-align: center;
+  margin: auto;
+  width: 95%;
+  gap: 10px;
+  margin-top: 2%;
+}
+@media(max-width:786px) {
+  .github-s{
+    display: grid;
+    
+  }
+  .github-s img{
+    width: 100%;
+  }
+}
 @media  (max-width: 786px) {
   .skills-111 div>img{
     width: 100%;
@@ -1681,7 +1698,7 @@ footer .credits a {
  font-weight: bold;
 }
 #resume-btn:hover{
-  background-color: blue;
+  background-color:blue;
   border: #ed3c0d;
 }
 .rs-btn{
@@ -1719,7 +1736,8 @@ footer .credits a {
   padding: 40px;
   font-size: 15px;
   border-radius: 10px;
-  transition: background 0.5s,transform 0.5s;
+  transition: background 0.5s,
+  transform 0.5s;
 }
 .skills-list div i{
   font-size: 50px;
